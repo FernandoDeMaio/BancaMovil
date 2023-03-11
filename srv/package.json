@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@sap/xsenv": "^3.4.0",
-    "express-locale": "^2.0.2"
+    "express-locale": "^2.0.2",
+    "ohana-node-orm": "^1.2.5"
   }
 }
