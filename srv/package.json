@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "@sap/xsenv": "^3.4.0",
+    "dotenv": "^16.0.3",
     "express-locale": "^2.0.2",
-    "ohana-node-orm": "^1.2.5"
+    "ohana-node-orm": "^1.2.5",
+    "openai": "^3.2.1"
   }
 }

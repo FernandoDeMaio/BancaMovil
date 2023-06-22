@@ -11,3 +11,17 @@ bookAdapter.allBookAdapter(
     }
   );
 };
+
+
+exports.allBookByChatController = (req, res) => {
+  console.log("allBookByChatAdapter")
+  bookAdapter.allBookByChatAdapter(
+    req,
+      (value, status) => {
+        res.status(status).send(value);
+      },
+      (err, status) => {
+        res.status(status).send(err);
+      }
+    );
+  };
